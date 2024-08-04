@@ -1,0 +1,27 @@
+---
+import Header from '../components/Header.astro';
+import Layout from '../layouts/Layout.astro';
+import Main from '../components/Main.astro';
+import Carrousel from '../components/Carrousel.astro';
+import About from '../components/nosotros.astro';
+import Servicios from '../components/servicios.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Montajes Mora">
+	<Header/>
+	<main>
+		<Main/>
+		<About/>
+		<Servicios/>
+		<Footer/>
+	</main>
+</Layout>
+
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+</style>
